@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.topo {
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+}
+
+.topo_conteudo {
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.topo_conteudo_logo {
+    flex: 1 1 60%;
+    font-size: 24px;
+    padding-left: 30px;
+}
+
+.topo_conteudo_links {
+    padding: 0 30px;
+    flex: 1 0 15px;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.topo_conteudo_logo a {
+    text-decoration: none;
+    color: #3d3d3d;
+}
+
+.topo_conteudo_logo span {
+    color: #6592c9;
+}
+
+.topo_conteudo_links a{
+    color: #3d3d3d;
+    text-decoration: none;
+
+}
+
+/* BANNER DE FUNDO */
+.main {
+    height: 800px;
+    background-image: url('/assets/img-fundo.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+
+    .main_texto {
+        color: #fff;
+        background-color: #0a9077b3;
+        font-size: 28px;
+        border: 1px solid white;
+        border-radius: 4px;
+        padding: 40px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+}
+
+/* QUARTOS */
+.quartos {
+    text-align: center;
+    padding: 100px 0 35px;
+
+    .quartos_intro h2 {
+        font-weight: lighter;
+        padding-bottom: 40px;
+    }
+
+    .quartos_intro p {
+        padding-bottom: 40px;
+        color: #3d3d3d;
+    }
+
+    .quartos_expo {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 35px;
+        padding: 0 150px;
+    }
+
+    .quartos_expo img {
+        width: 350px;
+        padding-bottom: 25px;
+    }
+
+    .quartos_expo p {
+        padding-bottom: 30px;
+        border-bottom: 2px solid #00836a;
+        font-weight: bold;
+        color: #3d3d3d;
+    }
+
+    .quartos_expo a {
+        text-decoration: none;
+    }
+}
