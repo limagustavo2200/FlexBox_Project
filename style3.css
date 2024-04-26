@@ -5,10 +5,15 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+h2 {
+    font-weight: lighter;
+}
+
 .topo {
     width: 100%;
     position: fixed;
     background-color: #fff;
+    padding: 20px 40px;
 }
 
 .topo_conteudo {
@@ -17,7 +22,6 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
     gap: 20px;
 }
 
@@ -51,6 +55,17 @@
 }
 
 /* BANNER DE FUNDO */
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding: 50px 20px;
+    text-align: center;
+    color: #3d3d3d;
+}
+
 .main {
     height: 800px;
     background-image: url('/assets/img-fundo.jpg');
@@ -60,58 +75,63 @@
     justify-content: center;
     align-items: center;
     padding: 0 20px;
-
-    .main_texto {
-        color: #fff;
-        background-color: #0a9077b3;
-        font-size: 28px;
-        border: 1px solid white;
-        border-radius: 4px;
-        padding: 40px 20px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 40px;
-    }
+}
+.main_texto {
+    color: #fff;
+    background-color: #0a9077b3;
+    font-size: 28px;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
 }
 
+
 /* QUARTOS */
-.quartos {
-    text-align: center;
-    padding: 100px 0 35px;
+.quartos_intro h2 {
+    padding-bottom: 40px;
+}
 
-    .quartos_intro h2 {
-        font-weight: lighter;
-        padding-bottom: 40px;
-    }
+.quartos_intro p {
+    padding-bottom: 40px;
+}
 
-    .quartos_intro p {
-        padding-bottom: 40px;
-        color: #3d3d3d;
-    }
+.quartos_expo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
 
-    .quartos_expo {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        gap: 35px;
-        padding: 0 150px;
-    }
+.quartos_expo img {
+    width: 250px;
+    padding-bottom: 25px;
+}
 
-    .quartos_expo img {
-        width: 250px;
-        padding-bottom: 25px;
-    }
+.quartos_expo p {
+    padding-bottom: 30px;
+    border-bottom: 2px solid #00836a;
+    font-weight: bold;
+    color: #3d3d3d;
+}
 
-    .quartos_expo p {
-        padding-bottom: 30px;
-        border-bottom: 2px solid #00836a;
-        font-weight: bold;
-        color: #3d3d3d;
-    }
+.quartos_expo a {
+   text-decoration: none;
+}
 
-    .quartos_expo a {
-        text-decoration: none;
-    }
+.rotas_descricao {
+    color: #3d3d3d;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.sobre_descricao {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
