@@ -135,3 +135,95 @@ h2 {
     flex-direction: column;
     gap: 30px;
 }
+
+.box_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.card {
+    flex: 1 0 350px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    text-align: left;
+    background-color: #f1f1f1;
+}
+
+.card_descricao {
+    width: 100%;
+    height: 100%;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card_imagem {
+    width: 30%;
+    height: 100%;
+}
+
+.card_imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* footer  */
+
+
+.footer {
+    background-color: #49997d;
+    color: #fff;
+}
+
+.footer_principal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 60px;
+    padding: 30px 60px ;
+}
+
+.card_footer {
+    flex: 1 0 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_footer h4 {
+    font-size: 22px;
+}
+
+.card_footer a {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-align: left;
+    text-decoration: none;
+}
+
+.card_footer p {
+    margin-left: 10px;
+}
+
+.card_footer img {
+    width: 40px;
+    height: 40px;
+}
+
+.footer_copyright {
+    padding: 20px;
+    font-weight: 600;
+    text-align: center;
+    border-top: 1px solid #3b7863;
+    margin: 0 55px
+} 
