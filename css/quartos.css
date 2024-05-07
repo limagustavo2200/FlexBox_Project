@@ -1,3 +1,4 @@
+
 *{
     padding: 0;
     margin: 0;
@@ -5,64 +6,11 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-h2 {
-    font-weight: lighter;
-    font-size: 28px;
-}
-
-.topo {
-    width: 100%;
-    position: fixed;
-    background-color: #fff;
-    padding: 20px 40px;
-}
-
-.topo_conteudo {
-    background-color: #fff;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-}
-
-.topo_conteudo_logo {
-    flex: 1 1 60%;
-    font-size: 24px;
-    padding-left: 30px;
-}
-
-.topo_conteudo_links {
-    padding: 0 30px;
-    flex: 1 0 15px;
-    display: flex;
-    gap: 40px;
-    justify-content: space-between;
-}
-
-.topo_conteudo_logo a {
-    text-decoration: none;
-    color: #3d3d3d;
-}
-
-.topo_conteudo_logo span {
-    color: #6592c9;
-}
-
-.topo_conteudo_links a{
-    color: #3d3d3d;
-    text-decoration: none;
-}
-
-
-/* imagem pricipal de fundo */
-
 .fundo {
     background-image: url('/assets/img-fundo.jpg');
     background-position:top;
     background-size: cover;
-    
-    height: 100vh;
+    height: 40vh;
     width: 100%;
     padding: 0 20px;
     display: flex;
@@ -70,33 +18,30 @@ h2 {
     align-items: center;
 }
 
-.padrao {
-    padding: 50px 100px;
-    width: 100%;
-    margin: 0 auto;
-    width: 1440px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-}
-
-.solteiro_titulo {
-    display: flex;
-    flex-direction: column;
-    flex: wrap;
-    gap: 30px;
-    color: #3d3d3d;
-    padding: 30px 0;
-}
- .solteiro_img {
-    display: flex;
+.padrao img {
+    width: 350px;
+    height: 250px;
+    flex-grow: 1;
+  }
+  
+  .container-informacoes {
     max-width: 1024px;
-    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+  }
+  
+  .lista-informacoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
     flex-wrap: wrap;
-    gap: 10px;
-}
-
-.solteiro_img img {
-    width: 100px;
-}
+  }
+  
+  .lista-informacoes li {
+    width: 230px;
+    text-align: left;
+  } 

@@ -6,7 +6,9 @@
 }
 
 h2 {
-    font-weight: lighter;
+    font-size: 22px;
+    color: #3d3d3d;
+    font-weight: normal;
 }
 
 .topo {
@@ -97,6 +99,7 @@ h2 {
 
 .quartos_intro p {
     padding-bottom: 40px;
+    font-size: 16px;
 }
 
 .quartos_expo {
